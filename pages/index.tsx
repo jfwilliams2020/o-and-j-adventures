@@ -3,9 +3,7 @@ import * as React from "react"
 
 const Home = () => {
 	return (
-		<>
-			<Navbar />
-		</>
+		<h1 className="text-3xl">Home</h1>
 	)
 }
 

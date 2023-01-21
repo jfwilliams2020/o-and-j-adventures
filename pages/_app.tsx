@@ -1,9 +1,15 @@
 import * as React from "react"
 import "@/styles/globals.css"
 import type { AppProps } from "next/app"
+import Navbar from "@/components/navbar"
 
 const App = ({ Component, pageProps }: AppProps) => {
-	return <Component {...pageProps} />
+	return (
+		<>
+			<Navbar />
+			<Component {...pageProps}/>
+		</>
+	)
 }
 
 export default App
